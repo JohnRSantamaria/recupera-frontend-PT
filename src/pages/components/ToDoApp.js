@@ -1,5 +1,5 @@
-import { usePostToDo } from '@/hooks/usePostToDo';
 import FormAddToDo from './FormAddToDo';
+import AllToDos from './AllToDos';
 
 const ToDoApp = () => {
 
@@ -9,6 +9,7 @@ const ToDoApp = () => {
         <h3 className='text-xl font-semibold'>Agregar un To Do</h3>
       </div>
       <FormAddToDo />
+      <AllToDos />
     </>
   )
 }
